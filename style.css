@@ -1,0 +1,11 @@
+html {
+    font-family: "Nunito Sans", sans-serif !important;
+}
+.smooth-scroll { scroll-behavior: smooth; }
+.gradient-bg {
+    background: linear-gradient(135deg, #e0f2fe 0%, #f8fafc 50%, #FFFFFF 100%);
+}
+.section-divider {
+    background: linear-gradient(90deg, transparent, #67e8f9, transparent);
+    height: 2px;
+}
