@@ -9,3 +9,23 @@ html {
     background: linear-gradient(90deg, transparent, #67e8f9, transparent);
     height: 2px;
 }
+
+.carousel {
+    display: flex;
+    width: calc(10 * (256px + 16px) * 2); /* 10 items + duplicates, including margins */
+    animation: slide 20s linear infinite;
+}
+.carousel-item {
+    min-width: 256px; /* Match w-64 */
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-10 * (256px + 16px))); /* Move left by 10 items */
+    }
+}
+.carousel:hover {
+    animation-play-state: paused; /* Pause on hover */
+}

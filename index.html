@@ -29,7 +29,6 @@
     <link rel="preload" href="static/images/background.png" as="image">
     <link rel="preload" href="static/images/background-mobile.png" as="image">
     <link rel="preload" href="static/images/nguyên vật liệu.png" as="image">
-    <link rel="preload" href="static/images/quy mô nhà máy.png" as="image">
     
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -72,34 +71,46 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden lg:flex space-x-6">
                     <div class="relative group" data-aos="fade-up" data-aos-delay="100">
-                        <button class="text-ocean hover:text-ocean-light px-3 py-2 rounded transition-colors">Giới Thiệu</button>
+                        <button class="text-ocean font-semibold px-3 py-2 rounded bg-ocean/20 shadow-sm transition-colors cursor-pointer">Giới Thiệu</button>
                         <div class="absolute top-full left-0 bg-white shadow-lg rounded-lg py-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                             <a href="#gioi-thieu" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Về Chúng Tôi</a>
                             <a href="#quy-trinh" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Quy Trình</a>
                             <a href="#nguyen-vat-lieu" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Nguyên Vật Liệu</a>
-                            <a href="#quy-mo" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Quy Mô</a>
                         </div>
                     </div>
                     <div class="relative group" data-aos="fade-up" data-aos-delay="200">
-                        <button class="text-ocean hover:text-ocean-light px-3 py-2 rounded transition-colors">Sản Phẩm</button>
+                        <button class="text-ocean font-semibold px-3 py-2 rounded bg-ocean/20 shadow-sm transition-colors cursor-pointer">Sản Phẩm</button>
                         <div class="absolute top-full left-0 bg-white shadow-lg rounded-lg py-2 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                            <a href="#dong-phuc-mam-non" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Mầm Non</a>
-                            <a href="#dong-phuc-the-duc" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Thể Dục</a>
-                            <a href="#dong-phuc-doanh-nghiep" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Doanh Nghiệp</a>
-                            <a href="#dong-phuc-ao-lop" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Áo Lớp - Áo Nhóm</a>
-                            <a href="#dong-phuc-truyen-thong" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Truyền Thống</a>
-                            <a href="#dong-phuc-hoc-sinh" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Học Sinh</a>
+                            <a href="#song-yen-fashion" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Thời Trang</a>
+                            <div class="relative group/submenu">
+                                <button class="w-full text-left px-4 py-2 text-sm text-ocean hover:bg-mist flex items-center justify-between">
+                                    Đồng Phục
+                                    <svg class="w-4 h-4 ml-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                </button>
+                                <div class="absolute top-0 left-full bg-white shadow-lg rounded-lg py-2 w-56 opacity-0 invisible group-hover/submenu:opacity-100 group-hover/submenu:visible transition-all duration-200">
+                                    <a href="#dong-phuc-mam-non" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Mầm Non</a>
+                                    <a href="#dong-phuc-the-duc" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Thể Dục</a>
+                                    <a href="#dong-phuc-doanh-nghiep" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Doanh Nghiệp</a>
+                                    <a href="#dong-phuc-ao-lop" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Áo Lớp - Áo Nhóm</a>
+                                    <a href="#dong-phuc-truyen-thong" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Truyền Thống</a>
+                                    <a href="#dong-phuc-hoc-sinh" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Học Sinh</a>
+                                    <a href="#dong-phuc-y-te" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Y Tế</a>
+                                    <a href="#dong-phuc-dich-vu" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Đồng Phục Dịch Vụ</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="relative group" data-aos="fade-up" data-aos-delay="300">
-                        <button class="text-ocean hover:text-ocean-light px-3 py-2 rounded transition-colors">Dịch Vụ</button>
+                        <button class="text-ocean font-semibold px-3 py-2 rounded bg-ocean/20 shadow-sm transition-colors cursor-pointer">Dịch Vụ</button>
                         <div class="absolute top-full left-0 bg-white shadow-lg rounded-lg py-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                             <a href="#chat-lieu" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Chất Liệu</a>
                             <a href="#ky-thuat-in-theu" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Kỹ Thuật In/Thêu</a>
                             <a href="#cam-ket-chat-luong" class="block px-4 py-2 text-sm text-ocean hover:bg-mist">Cam Kết Chất Lượng</a>
                         </div>
                     </div>
-                    <a href="#lien-he" class="text-ocean hover:text-ocean-light px-3 py-2 rounded transition-colors" data-aos="fade-up" data-aos-delay="400">Liên Hệ</a>
+                    <a href="#lien-he" class="text-ocean font-semibold px-3 py-2 rounded bg-ocean/20 shadow-sm transition-colors cursor-pointer" data-aos="fade-up" data-aos-delay="500">Liên Hệ</a>
                 </div>
 
                 <!-- Mobile Menu Button -->
@@ -111,52 +122,64 @@
             </div>
 
             <!-- Mobile Menu -->
-            <div id="mobile-menu" class="lg:hidden hidden mt-4 pb-4">
-                <div class="space-y-4">
+            <div id="mobile-menu" class="lg:hidden hidden fixed top-0 left-0 w-full max-h-screen overflow-y-auto bg-white/95 backdrop-blur-sm mt-4 pb-6 z-40">
+                <div class="space-y-4 px-4">
                     <div data-aos="fade-up" data-aos-delay="100">
-                        <button class="submenu-toggle w-full flex justify-between items-center px-3 py-2 text-ocean hover:text-ocean-light" data-target="gioi-thieu-sub">
+                        <button class="submenu-toggle w-full flex justify-between items-center px-3 py-2 text-ocean font-semibold bg-ocean/20 rounded shadow-sm cursor-pointer" data-target="gioi-thieu-sub">
                             Giới Thiệu
                             <svg class="w-4 h-4 ml-2 transition-transform" id="icon-gioi-thieu-sub" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                             </svg>
                         </button>
-                        <div id="gioi-thieu-sub" class="hidden pl-6 space-y-2">
+                        <div id="gioi-thieu-sub" class="hidden pl-6 space-y-2 pt-2">
                             <a href="#gioi-thieu" class="block text-ocean hover:text-ocean-light py-1">Về Chúng Tôi</a>
                             <a href="#quy-trinh" class="block text-ocean hover:text-ocean-light py-1">Quy Trình</a>
                             <a href="#nguyen-vat-lieu" class="block text-ocean hover:text-ocean-light py-1">Nguyên Vật Liệu</a>
-                            <a href="#quy-mo" class="block text-ocean hover:text-ocean-light py-1">Quy Mô</a>
                         </div>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="200">
-                        <button class="submenu-toggle w-full flex justify-between items-center px-3 py-2 text-ocean hover:text-ocean-light" data-target="san-pham-sub">
+                        <button class="submenu-toggle w-full flex justify-between items-center px-3 py-2 text-ocean font-semibold bg-ocean/20 rounded shadow-sm cursor-pointer" data-target="san-pham-sub">
                             Sản Phẩm
                             <svg class="w-4 h-4 ml-2 transition-transform" id="icon-san-pham-sub" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                             </svg>
                         </button>
-                        <div id="san-pham-sub" class="hidden pl-6 space-y-2">
-                            <a href="#dong-phuc-mam-non" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Mầm Non</a>
-                            <a href="#dong-phuc-the-duc" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Thể Dục</a>
-                            <a href="#dong-phuc-doanh-nghiep" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Doanh Nghiệp</a>
-                            <a href="#dong-phuc-ao-lop" class="block text-ocean hover:text-ocean-light py-1">Áo Lớp - Áo Nhóm</a>
-                            <a href="#dong-phuc-truyen-thong" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Truyền Thống</a>
-                            <a href="#dong-phuc-hoc-sinh" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Học Sinh</a>
+                        <div id="san-pham-sub" class="hidden pl-6 space-y-2 pt-2">
+                            <a href="#song-yen-fashion" class="block text-ocean hover:text-ocean-light py-1">Thời Trang</a>
+                            <div>
+                                <button class="submenu-toggle w-full flex justify-between items-center px-3 py-2 text-ocean font-semibold bg-ocean/20 rounded shadow-sm cursor-pointer" data-target="dong-phuc-sub">
+                                    Đồng Phục
+                                    <svg class="w-4 h-4 ml-2 transition-transform" id="icon-dong-phuc-sub" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                    </svg>
+                                </button>
+                                <div id="dong-phuc-sub" class="hidden pl-6 space-y-2 pt-2">
+                                    <a href="#dong-phuc-mam-non" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Mầm Non</a>
+                                    <a href="#dong-phuc-the-duc" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Thể Dục</a>
+                                    <a href="#dong-phuc-doanh-nghiep" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Doanh Nghiệp</a>
+                                    <a href="#dong-phuc-ao-lop" class="block text-ocean hover:text-ocean-light py-1">Áo Lớp - Áo Nhóm</a>
+                                    <a href="#dong-phuc-truyen-thong" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Truyền Thống</a>
+                                    <a href="#dong-phuc-hoc-sinh" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Học Sinh</a>
+                                    <a href="#dong-phuc-y-te" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Y Tế</a>
+                                    <a href="#dong-phuc-dich-vu" class="block text-ocean hover:text-ocean-light py-1">Đồng Phục Dịch Vụ</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div data-aos="fade-up" data-aos-delay="300">
-                        <button class="submenu-toggle w-full flex justify-between items-center px-3 py-2 text-ocean hover:text-ocean-light" data-target="dich-vu-sub">
+                        <button class="submenu-toggle w-full flex justify-between items-center px-3 py-2 text-ocean font-semibold bg-ocean/20 rounded shadow-sm cursor-pointer" data-target="dich-vu-sub">
                             Dịch Vụ
                             <svg class="w-4 h-4 ml-2 transition-transform" id="icon-dich-vu-sub" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                             </svg>
                         </button>
-                        <div id="dich-vu-sub" class="hidden pl-6 space-y-2">
+                        <div id="dich-vu-sub" class="hidden pl-6 space-y-2 pt-2">
                             <a href="#chat-lieu" class="block text-ocean hover:text-ocean-light py-1">Chất Liệu</a>
                             <a href="#ky-thuat-in-theu" class="block text-ocean hover:text-ocean-light py-1">Kỹ Thuật In/Thêu</a>
                             <a href="#cam-ket-chat-luong" class="block text-ocean hover:text-ocean-light py-1">Cam Kết Chất Lượng</a>
                         </div>
                     </div>
-                    <a href="#lien-he" class="block text-ocean hover:text-ocean-light px-3 py-2" data-aos="fade-up" data-aos-delay="400">Liên Hệ</a>
+                    <a href="#lien-he" class="block text-ocean font-semibold px-3 py-2 bg-ocean/20 rounded shadow-sm cursor-pointer" data-aos="fade-up" data-aos-delay="500">Liên Hệ</a>
                 </div>
             </div>
         </div>
@@ -170,10 +193,10 @@
                     Song Yến Uniform & Fashion
                 </h1>
                 <p class="text-xl text-navy mb-8" data-aos="fade-up" data-aos-delay="200">
-                    Hơn 15 năm kinh nghiệm trong ngành sản xuất và kinh doanh đồng phục
+                    Tâm huyết kiến tạo, dẫn đầu thời trang
                 </p>
                 <div class="flex flex-wrap justify-center gap-4">
-                    <a href="#dong-phuc-mam-non">
+                    <a href="#song-yen-fashion">
                         <button class="border-2 border-ocean bg-ocean text-white px-8 py-3 rounded-lg hover:bg-ocean-light hover:border-ocean-light transition-colors" data-aos="fade-right" data-aos-delay="300">
                             Khám Phá Sản Phẩm
                         </button>
@@ -193,49 +216,97 @@
         </div>
     </section>
 
-    <!-- Section 1: Giới Thiệu -->
-    <section id="gioi-thieu" class="py-20 lg:bg-[url('static/images/background.png')] bg-[url('static/images/background-mobile.png')] bg-cover" data-aos="fade-up">
+    <!-- Section: Giới Thiệu -->
+    <section id="gioi-thieu" class="py-20 scroll-mt-10 lg:bg-[url('static/images/background.png')] bg-[url('static/images/background-mobile.png')] bg-cover" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-mist text-center mb-12" data-aos="zoom-in" data-aos-delay="100">GIỚI THIỆU</h2>
                 <div class="section-divider mb-8" data-aos="fade-in" data-aos-delay="200"></div>
-                <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <p class="text-lg text-mist leading-relaxed mb-6" data-aos="fade-right" data-aos-delay="300">
-                            Kính gửi Quý khách hàng và Đối tác, Với hơn 15 năm kinh nghiệm trong ngành sản xuất và kinh doanh mặt hàng thời trang, Song Yến Uniform & Fashion tự hào là người bạn đồng hành đáng tin cậy của hàng ngàn doanh nghiệp, tổ chức và cá nhân trên toàn quốc.
-                        </p>
-                        <p class="text-lg text-mist leading-relaxed mb-6" data-aos="fade-right" data-aos-delay="400">
-                            Chúng tôi không ngừng nỗ lực để mang đến những sản phẩm không chỉ đáp ứng mà còn vượt qua sự mong đợi của quý khách hàng về chất lượng, kiểu dáng và sự thoải mái.
-                        </p>
-                        <div class="bg-mist p-6 rounded-lg" data-aos="fade-up" data-aos-delay="500">
-                            <h3 class="text-xl font-semibold text-ocean mb-4">Sản phẩm đa dạng:</h3>
-                            <ul class="space-y-2 text-gray-700">
-                                <li data-aos="fade-up" data-aos-delay="600">• Đồng phục doanh nghiệp</li>
-                                <li data-aos="fade-up" data-aos-delay="650">• Đồng phục học sinh, mầm non</li>
-                                <li data-aos="fade-up" data-aos-delay="700">• Đồng phục truyền thống trường</li>
-                                <li data-aos="fade-up" data-aos-delay="750">• Đồng phục y tế, ngành dịch vụ</li>
-                                <li data-aos="fade-up" data-aos-delay="800">• Thời trang theo xu hướng mới nhất</li>
-                            </ul>
-                        </div>
+                
+                <!-- Song Yến Uniform Introduction -->
+                <div class="bg-mist p-8 rounded-lg shadow-lg mb-12" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-2xl font-semibold text-ocean mb-6">Song Yến Uniform</h3>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="350">
+                        <strong class="text-ocean">Kính gửi Quý khách hàng và đối tác,</strong>
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="400">
+                        Chúng tôi là một doanh nghiệp hình thành và phát triển tại thành phố Đà Nẵng – Thành phố được đánh giá là “Thành phố đáng sống”.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="450">
+                        Về Song Yến Uniform, chúng tôi hướng tới cung cấp những sản phẩm đồng phục không chỉ đẹp, phù hợp về mặt thẩm mỹ mà còn đảm bảo chất lượng, độ bền cao, thoải mái khi sử dụng. Chúng tôi mong muốn đồng phục của khách hàng không chỉ là một bộ trang phục, mà còn là bộ nhận diện thương hiệu thể hiện sự chuyên nghiệp và tinh thần đoàn kết.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="500">
+                        Đến với doanh nghiệp chúng tôi, quý khách sẽ cảm nhận được chúng tôi là một đối tác tin cậy và có thể hợp tác lâu dài.
+                    </p>
+                    <div class="flex items-center justify-center mt-6" data-aos="zoom-in" data-aos-delay="550">
+                        <svg class="w-6 h-6 text-ocean mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <p class="text-lg font-semibold text-ocean">Phương châm: Song Yến - Chân thành thấu hiểu và dẫn đầu thời đại</p>
                     </div>
-                    <!-- <div class="bg-gray-200 h-96 rounded-lg flex items-center justify-center" data-aos="zoom-in" data-aos-delay="300">
-                        <span class="text-gray-500 text-lg">Hình ảnh giới thiệu công ty</span>
-                    </div> -->
-                    <div class="mt-12 text-center">
-                        <p class="text-xl text-mist font-semibold mb-4" data-aos="fade-up" data-aos-delay="400">
-                            "Đồng phục không chỉ là trang phục, mà còn là biểu tượng của sự chuyên nghiệp và tinh thần đoàn kết"
-                        </p>
-                        <p class="text-lg text-ocean-light" data-aos="fade-up" data-aos-delay="500">
-                            Song Yến luôn chú trọng đến từng yêu cầu riêng biệt của khách hàng, từ khâu tư vấn, thiết kế - sản xuất đến giao hàng.
-                        </p>
-                    </div>
+                </div>
+
+                <!-- Sản Phẩm -->
+                <div class="bg-mist p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="text-2xl font-semibold text-ocean mb-6">Sản Phẩm</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="700">
+                            <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                            </svg>
+                            <span>Đồng phục áo lớp - áo nhóm</span>
+                        </li>
+                        <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="750">
+                            <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v3m-4 0h4m-7 5h10a2 2 0 012 2v6a2 2 0 01-2 2H7a2 2 0 01-2-2v-6a2 2 0 012-2z"></path>
+                            </svg>
+                            <span>Đồng phục thể dục - thể thao</span>
+                        </li>
+                        <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="800">
+                            <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                            <span>Đồng phục doanh nghiệp</span>
+                        </li>
+                        <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="850">
+                            <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                            </svg>
+                            <span>Đồng phục học sinh</span>
+                        </li>
+                        <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="900">
+                            <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z"></path>
+                            </svg>
+                            <span>Đồng phục mầm non</span>
+                        </li>
+                        <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="950">
+                            <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 9.143M15 15v4m-2-2h4"></path>
+                            </svg>
+                            <span>Đồng phục truyền thống trường</span>
+                        </li>
+                        <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="1000">
+                            <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                            </svg>
+                            <span>Đồng phục y tế</span>
+                        </li>
+                        <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="1050">
+                            <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>Đồng phục các ngành dịch vụ</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section 2: Quy Trình Sản Xuất -->
-    <section id="quy-trinh" class="py-20 gradient-bg" data-aos="fade-up">
+    <!-- Section: Quy Trình Sản Xuất -->
+    <section id="quy-trinh" class="py-20 scroll-mt-10 gradient-bg" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">QUY TRÌNH SẢN XUẤT</h2>
@@ -244,35 +315,23 @@
                     Quy trình sản xuất khép kín tại Song Yến Uniform & Fashion là một chuỗi các bước được thực hiện một cách hệ thống và liên tục, nhằm đảm bảo chất lượng sản phẩm từ nguyên vật liệu đầu vào đến sản phẩm hoàn thiện.
                 </p>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="400">
-                        <div class="h-32 mb-4 flex items-center justify-center">
-                            <img src="static/images/tiếp nhận đơn hàng.png" alt="Icon tiếp nhận đơn hàng" class="h-full object-contain">
-                        </div>
-                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">1</div>
-                        <h3 class="text-xl font-semibold text-ocean mb-3">TIẾP NHẬN ĐƠN HÀNG</h3>
-                        <ul class="text-gray-700 space-y-1 text-sm">
-                            <li>• Yêu cầu màu sắc, chất liệu</li>
-                            <li>• Kiểu dáng sản phẩm</li>
-                            <li>• Kỹ thuật in/thêu</li>
-                        </ul>
-                    </div>
                     <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="450">
                         <div class="h-32 mb-4 flex items-center justify-center">
-                            <img src="static/images/tư vấn báo giá.png" alt="Icon tư vấn báo giá" class="h-full object-contain">
+                            <img src="static/images/tiếp nhận đơn hàng và tư vấn.png" alt="Icon tiếp nhận đơn hàng và tư vấn" class="h-full object-contain">
                         </div>
-                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">2</div>
-                        <h3 class="text-xl font-semibold text-ocean mb-3">TƯ VẤN & BÁO GIÁ</h3>
+                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">1</div>
+                        <h3 class="text-xl font-semibold text-ocean mb-3">TIẾP NHẬN ĐƠN HÀNG & TƯ VẤN</h3>
                         <ul class="text-gray-700 space-y-1 text-sm">
-                            <li>• Chốt phương án thiết kế sản phẩm</li>
-                            <li>• Xác định chất liệu, thông số size</li>
-                            <li>• Báo giá chi tiết</li>
+                            <li>• Liên hệ qua hotline hoặc Zalo</li>
+                            <li>• Làm việc giờ hành chính</li>
+                            <li>• Tư vấn và chốt đơn nhanh</li>
                         </ul>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="500">
                         <div class="h-32 mb-4 flex items-center justify-center">
                             <img src="static/images/thiết kế may mẫu.png" alt="Icon thiết kế may mẫu" class="h-full object-contain">
                         </div>
-                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">3</div>
+                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">2</div>
                         <h3 class="text-xl font-semibold text-ocean mb-3">THIẾT KẾ & MAY MẪU</h3>
                         <ul class="text-gray-700 space-y-1 text-sm">
                             <li>• Thiết kế và chốt phương án</li>
@@ -284,7 +343,7 @@
                         <div class="h-32 mb-4 flex items-center justify-center">
                             <img src="static/images/sản xuất.png" alt="Icon sản xuất" class="h-full object-contain">
                         </div>
-                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">4</div>
+                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">3</div>
                         <h3 class="text-xl font-semibold text-ocean mb-3">SẢN XUẤT</h3>
                         <ul class="text-gray-700 space-y-1 text-sm">
                             <li>• Cắt vải, may hoàn thiện</li>
@@ -296,7 +355,7 @@
                         <div class="h-32 mb-4 flex items-center justify-center">
                             <img src="static/images/kiểm tra hoàn thiện.png" alt="Icon kiểm tra hoàn thiện" class="h-full object-contain">
                         </div>
-                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">5</div>
+                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">4</div>
                         <h3 class="text-xl font-semibold text-ocean mb-3">KIỂM TRA & HOÀN THIỆN</h3>
                         <ul class="text-gray-700 space-y-1 text-sm">
                             <li>• QC đầu ra sản phẩm</li>
@@ -308,7 +367,7 @@
                         <div class="h-32 mb-4 flex items-center justify-center">
                             <img src="static/images/giao hàng.png" alt="Icon giao hàng" class="h-full object-contain">
                         </div>
-                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">6</div>
+                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">5</div>
                         <h3 class="text-xl font-semibold text-ocean mb-3">GIAO HÀNG</h3>
                         <ul class="text-gray-700 space-y-1 text-sm">
                             <li>• Giao hàng đúng hẹn</li>
@@ -316,18 +375,33 @@
                             <li>• Hỗ trợ sau bán hàng</li>
                         </ul>
                     </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="400">
+                        <div class="h-32 mb-4 flex items-center justify-center">
+                            <img src="static/images/hỗ trợ chăm sóc sau đơn hàng.png" alt="Icon hỗ trợ chăm sóc sau đơn hàng" class="h-full object-contain">
+                        </div>
+                        <div class="bg-ocean text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mb-4">6</div>
+                        <h3 class="text-xl font-semibold text-ocean mb-3">HỖ TRỢ CHĂM SÓC SAU ĐƠN HÀNG</h3>
+                        <ul class="text-gray-700 space-y-1 text-sm">
+                            <li>• Hỗ trợ sau bán hàng</li>
+                            <li>• Xử lý khiếm khuyết sản phẩm</li>
+                            <li>• Đảm bảo quyền lợi khách hàng</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section 3: Nguyên Vật Liệu -->
-    <section id="nguyen-vat-lieu" class="relative py-20 bg-[url('static/images/nguyên%20vật%20liệu.png')] bg-center bg-cover" data-aos="fade-up">
+    <!-- Section: Nguyên Vật Liệu -->
+    <section id="nguyen-vat-lieu" class="relative py-20 scroll-mt-10 bg-[url('static/images/nguyên%20vật%20liệu.png')] bg-center bg-cover" data-aos="fade-up">
         <div class="absolute top-0 left-0 bg-mist/70 size-full"></div>
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto text-center">
                 <h2 class="text-4xl font-bold text-ocean mb-12" data-aos="zoom-in" data-aos-delay="100">NGUYÊN VẬT LIỆU</h2>
                 <div class="section-divider mb-8" data-aos="fade-in" data-aos-delay="200"></div>
+                <p class="text-lg text-gray-700 leading-relaxed mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="250">
+                    Chất liệu đầu vào tại Song Yến có nguồn gốc rõ ràng, an toàn cho sức khỏe người dùng. Chúng tôi chọn lọc chất liệu phù hợp với từng lứa tuổi, mục đích sử dụng và ý nghĩa, đảm bảo mang lại sản phẩm chất lượng cao, bền đẹp và thoải mái.
+                </p>
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
                     <div class="bg-mist p-6 rounded-lg" data-aos="fade-up" data-aos-delay="300">
                         <div class="h-20 mb-4 flex items-center justify-center">
@@ -364,45 +438,8 @@
         </div>
     </section>
 
-    <!-- Section 4: Quy Mô Nhà Máy -->
-    <section id="quy-mo" class="relative py-20 bg-[url('static/images/quy%20mô%20nhà%20máy.png')] bg-center bg-cover" data-aos="fade-up">
-        <div class="absolute top-0 left-0 bg-mist/70 size-full"></div>
-        <div class="container mx-auto px-4">
-            <div class="max-w-6xl mx-auto text-center">
-                <h2 class="text-4xl font-bold text-ocean mb-12" data-aos="zoom-in" data-aos-delay="100">QUY MÔ NHÀ MÁY</h2>
-                <div class="section-divider mb-8" data-aos="fade-in" data-aos-delay="200"></div>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
-                        <div class="h-24 rounded-lg mb-4 flex items-center justify-center">
-                            <img src="static/images/thiết bị tiên tiến.png" alt="Icon thiết bị tiên tiến" class="h-full object-contain">
-                        </div>
-                        <h3 class="text-lg font-semibold text-ocean">THIẾT BỊ TIÊN TIẾN</h3>
-                    </div>
-                    <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="350">
-                        <div class="h-24 rounded-lg mb-4 flex items-center justify-center">
-                            <img src="static/images/sản phẩm đa dạng.png" alt="Icon sản phẩm đa dạng" class="h-full object-contain">
-                        </div>
-                        <h3 class="text-lg font-semibold text-ocean">SẢN PHẨM ĐA DẠNG</h3>
-                    </div>
-                    <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="400">
-                        <div class="h-24 rounded-lg mb-4 flex items-center justify-center">
-                            <img src="static/images/thị trường toàn quốc.png" alt="Icon thị trường toàn quốc" class="h-full object-contain">
-                        </div>
-                        <h3 class="text-lg font-semibold text-ocean">THỊ TRƯỜNG TOÀN QUỐC</h3>
-                    </div>
-                    <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="450">
-                        <div class="h-24 rounded-lg mb-4 flex items-center justify-center">
-                            <img src="static/images/dịch vụ tận tâm.png" alt="Icon dịch vụ tận tâm" class="h-full object-contain">
-                        </div>
-                        <h3 class="text-lg font-semibold text-ocean">DỊCH VỤ TẬN TÂM</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 5: Giá Trị Khác Biệt -->
-    <section id="gia-tri-khac-biet" class="py-20 bg-white" data-aos="fade-up">
+    <!-- Section: Giá Trị Khác Biệt -->
+    <section id="gia-tri-khac-biet" class="py-20 scroll-mt-10 bg-white" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">GIÁ TRỊ KHÁC BIỆT - CAM KẾT CHẤT LƯỢNG</h2>
@@ -452,48 +489,88 @@
         </div>
     </section>
 
-    <!-- Section 6: Cam Kết Chất Lượng -->
-    <section id="cam-ket-chat-luong" class="py-20 gradient-bg" data-aos="fade-up">
+    <!-- Section: Song Yến Fashion -->
+    <section id="song-yen-fashion" class="py-20 scroll-mt-10 bg-white" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">CAM KẾT CHẤT LƯỢNG - ĐỒNG HÀNH MỖI BƯỚC ĐƯỜNG</h2>
+                <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">SONG YẾN FASHION</h2>
                 <div class="section-divider mb-8" data-aos="fade-in" data-aos-delay="200"></div>
-                <div class="grid lg:grid-cols-2 gap-12">
-                    <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-right" data-aos-delay="300">
-                        <h3 class="text-2xl font-semibold text-ocean mb-6">CHẤT LƯỢNG VÀ THIẾT KẾ</h3>
-                        <div class="flex h-48 mb-6 items-center justify-center" data-aos="zoom-in" data-aos-delay="300">
-                            <img src="static/images/chất lượng và thiết kế.png" alt="chất lượng và thiết kế.jpg" class="size-full object-cover rounded-lg">
+                
+                <div class="text-center mb-12" data-aos="fade-up" data-aos-delay="300">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="350">
+                        Song Yến Fashion mang đến những bộ sưu tập thời trang thể hiện cá tính, văn hóa và vẻ đẹp riêng biệt của từng khách hàng. Với chúng tôi, thời trang không chỉ là trang phục, mà là sự kết hợp hoàn hảo giữa cái đẹp và sự phù hợp.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="400">
+                        Dù bạn đặt hàng 1, 10 hay 1000 sản phẩm, Song Yến Fashion luôn cam kết phục vụ với tinh thần tận tâm, thái độ chuyên nghiệp và tốc độ nhanh chóng, đảm bảo sự công bằng và hài lòng tuyệt đối.
+                    </p>
+                    <p class="text-lg font-semibold text-ocean" data-aos="fade-up" data-aos-delay="450">
+                        Song Yến Fashion – Đẹp, phù hợp, dẫn đầu xu hướng.
+                    </p>
+                </div>
+
+                <!-- Carousel -->
+                <div class="overflow-hidden relative" data-aos="fade-up" data-aos-delay="500">
+                    <div class="carousel flex animate-slide">
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 1</span>
                         </div>
-                        <ul class="space-y-3 text-gray-700">
-                            <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="400">
-                                <span class="text-ocean font-bold">•</span>
-                                <span>Mỗi bộ đồng phục đều được chọn lọc kỹ lưỡng từ những chất liệu cao cấp, đảm bảo độ bền và sự thoải mái khi sử dụng.</span>
-                            </li>
-                            <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="450">
-                                <span class="text-ocean font-bold">•</span>
-                                <span>Thiết kế tinh tế, sáng tạo và phù hợp với đặc trưng của từng tổ chức, trường học là điều chúng tôi luôn chú trọng.</span>
-                            </li>
-                            <li class="flex items-start space-x-3" data-aos="fade-up" data-aos-delay="500">
-                                <span class="text-ocean font-bold">•</span>
-                                <span>Sản phẩm của Song Yến Uniform không chỉ mang đến sự chuyên nghiệp mà còn thể hiện phong cách riêng biệt.</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-right" data-aos-delay="300">
-                        <h3 class="text-2xl font-semibold text-ocean mb-6">SỰ TẬN TÂM VÀ CAM KẾT</h3>
-                        <div class="flex h-48 mb-6 items-center justify-center" data-aos="zoom-in" data-aos-delay="300">
-                            <img src="static/images/sự tận tâm và cam kết.png" alt="sự tận tâm và cam kết.jpg" class="size-full object-cover rounded-lg">
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 2</span>
                         </div>
-                        <p class="text-gray-700 mb-4" data-aos="fade-up" data-aos-delay="400">
-                            Với phương châm <span class="font-semibold text-ocean">Tận tâm, Thành thật và Thấu hiểu</span>, Song Yến Uniform luôn nỗ lực mang đến dịch vụ hoàn hảo, từ khâu tư vấn đến khi sản phẩm đến tay khách hàng.
-                        </p>
-                        <p class="text-gray-700 mb-4" data-aos="fade-up" data-aos-delay="450">
-                            Chúng tôi lắng nghe và tiếp thu ý kiến của khách hàng để không ngừng cải tiến và đảm bảo mỗi sản phẩm đều đáp ứng tối đa yêu cầu và kỳ vọng.
-                        </p>
-                        <div class="bg-mist p-4 rounded-lg" data-aos="fade-up" data-aos-delay="500">
-                            <p class="text-ocean font-semibold text-center">
-                                "Đồng phục không chỉ là trang phục mà còn là biểu tượng của thương hiệu và niềm tự hào"
-                            </p>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 3</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 4</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 5</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 6</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 7</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 8</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 9</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 10</span>
+                        </div>
+                        <!-- Duplicate items for infinite loop -->
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 1</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 2</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 3</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 4</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 5</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 6</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 7</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 8</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 9</span>
+                        </div>
+                        <div class="carousel-item flex-none w-64 h-96 bg-gray-200 rounded-lg flex items-center justify-center mx-2">
+                            <span class="text-gray-500">Hình ảnh thời trang 10</span>
                         </div>
                     </div>
                 </div>
@@ -501,8 +578,8 @@
         </div>
     </section>
 
-    <!-- Section 7: Đồng Phục Mầm Non -->
-    <section id="dong-phuc-mam-non" class="py-20 bg-white" data-aos="fade-up">
+    <!-- Section: Đồng Phục Mầm Non -->
+    <section id="dong-phuc-mam-non" class="py-20 scroll-mt-10 bg-white" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">ĐỒNG PHỤC MẦM NON</h2>
@@ -554,8 +631,8 @@
         </div>
     </section>
 
-    <!-- Section 8: Đồng Phục Thể Dục Thể Thao -->
-    <section id="dong-phuc-the-duc" class="py-20 gradient-bg" data-aos="fade-up">
+    <!-- Section: Đồng Phục Thể Dục Thể Thao -->
+    <section id="dong-phuc-the-duc" class="py-20 scroll-mt-10 gradient-bg" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">ĐỒNG PHỤC THỂ DỤC THỂ THAO</h2>
@@ -607,15 +684,15 @@
         </div>
     </section>
 
-    <!-- Section 9: Đồng Phục Doanh Nghiệp -->
-    <section id="dong-phuc-doanh-nghiep" class="py-20 bg-white" data-aos="fade-up">
+    <!-- Section: Đồng Phục Doanh Nghiệp -->
+    <section id="dong-phuc-doanh-nghiep" class="py-20 scroll-mt-10 bg-white" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">ĐỒNG PHỤC DOANH NGHIỆP</h2>
                 <div class="section-divider mb-8" data-aos="fade-in" data-aos-delay="200"></div>
                 <div class="text-center mb-12">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6 max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="300">
-                        Với hơn 15 năm kinh nghiệm trong ngành sản xuất may mặc, Song Yến Uniform tự hào là một trong những công ty hàng đầu trong lĩnh vực sản xuất đồng phục doanh nghiệp tại Đà Nẵng.
+                        Với nhiều năm kinh nghiệm trong ngành sản xuất may mặc, Song Yến Uniform tự hào là một trong những công ty hàng đầu trong lĩnh vực sản xuất đồng phục doanh nghiệp tại Đà Nẵng.
                     </p>
                     <div class="bg-mist p-6 rounded-lg inline-block" data-aos="fade-up" data-aos-delay="400">
                         <h3 class="text-2xl font-bold text-ocean">Song Yến Uniform - Giá Trị Thực, Chất Lượng Bền Lâu!</h3>
@@ -659,8 +736,8 @@
         </div>
     </section>
 
-    <!-- Section 10: Đồng Phục Áo Lớp - Áo Nhóm -->
-    <section id="dong-phuc-ao-lop" class="pt-20 gradient-bg" data-aos="fade-up">
+    <!-- Section: Đồng Phục Áo Lớp - Áo Nhóm -->
+    <section id="dong-phuc-ao-lop" class="py-20 scroll-mt-10 gradient-bg" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">ĐỒNG PHỤC ÁO LỚP - ÁO NHÓM</h2>
@@ -701,8 +778,8 @@
         <img src="static/images/đồng phục áo lớp - áo nhóm.png" alt="đồng phục áo lớp - áo nhóm" class="mt-12 w-full">
     </section>
 
-    <!-- Section 11: Đồng Phục Truyền Thống Trường -->
-    <section id="dong-phuc-truyen-thong" class="py-20 bg-white" data-aos="fade-up">
+    <!-- Section: Đồng Phục Truyền Thống Trường -->
+    <section id="dong-phuc-truyen-thong" class="py-20 scroll-mt-10 bg-white" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">ĐỒNG PHỤC TRUYỀN THỐNG TRƯỜNG</h2>
@@ -749,8 +826,8 @@
         </div>
     </section>
 
-    <!-- Section 12: Đồng Phục Học Sinh -->
-    <section id="dong-phuc-hoc-sinh" class="py-20 gradient-bg" data-aos="fade-up">
+    <!-- Section: Đồng Phục Học Sinh -->
+    <section id="dong-phuc-hoc-sinh" class="py-20 scroll-mt-10 gradient-bg" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">ĐỒNG PHỤC HỌC SINH</h2>
@@ -804,8 +881,96 @@
         </div>
     </section>
 
-    <!-- Section 13: Chất Liệu Tiêu Biểu -->
-    <section id="chat-lieu" class="py-20 bg-white" data-aos="fade-up">
+    <!-- Section: Đồng Phục Y Tế -->
+    <section id="dong-phuc-y-te" class="py-20 scroll-mt-10 bg-white" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">ĐỒNG PHỤC Y TẾ</h2>
+                <div class="section-divider mb-8" data-aos="fade-in" data-aos-delay="200"></div>
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div data-aos="fade-right" data-aos-delay="300">
+                        <h3 class="text-2xl font-semibold text-ocean mb-6">Đồng Phục Y Tế Chuyên Nghiệp</h3>
+                        <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="350">
+                            Song Yến Uniform tự hào cung cấp các mẫu đồng phục y tế được thiết kế chuyên biệt, đáp ứng tiêu chuẩn nghiêm ngặt của ngành y tế. Từ áo blouse bác sĩ, đồng phục điều dưỡng đến trang phục phòng mổ, mỗi sản phẩm đều được chế tác từ vải chất lượng cao, thoáng mát, kháng khuẩn, đảm bảo sự thoải mái và an toàn trong môi trường làm việc.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="400">
+                            Chúng tôi chú trọng vào thiết kế tinh tế, kết hợp giữa tính thẩm mỹ và công năng, giúp đội ngũ y tế thể hiện sự chuyên nghiệp và tạo cảm giác tin cậy cho bệnh nhân. Các mẫu đồng phục có thể được tùy chỉnh theo yêu cầu, từ màu sắc đến logo in/thêu, phù hợp với từng bệnh viện, phòng khám.
+                        </p>
+                        <ul class="space-y-3 text-gray-700" data-aos="fade-up" data-aos-delay="450">
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Vải kháng khuẩn, dễ vệ sinh, bền màu.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Thiết kế đa dạng: blouse, quần áo phòng mổ, đồng phục điều dưỡng.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Tùy chỉnh logo và màu sắc theo thương hiệu.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-200 h-96 rounded-lg flex items-center justify-center" data-aos="zoom-in" data-aos-delay="300">
+                        <span class="text-gray-500">Hình ảnh minh họa đồng phục y tế</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Đồng Phục Các Ngành Dịch Vụ -->
+    <section id="dong-phuc-dich-vu" class="py-20 scroll-mt-10 gradient-bg" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">ĐỒNG PHỤC CÁC NGÀNH DỊCH VỤ</h2>
+                <div class="section-divider mb-8" data-aos="fade-in" data-aos-delay="200"></div>
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="bg-gray-200 h-96 rounded-lg flex items-center justify-center" data-aos="zoom-in" data-aos-delay="300">
+                        <span class="text-gray-500">Hình ảnh minh họa đồng phục dịch vụ</span>
+                    </div>
+                    <div data-aos="fade-right" data-aos-delay="300">
+                        <h3 class="text-2xl font-semibold text-ocean mb-6">Đồng Phục Dịch Vụ Đẳng Cấp</h3>
+                        <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="350">
+                            Đồng phục các ngành dịch vụ của Song Yến Uniform được thiết kế để nâng tầm hình ảnh chuyên nghiệp cho các lĩnh vực như nhà hàng, khách sạn, spa, và siêu thị. Chúng tôi mang đến những bộ đồng phục vừa thời trang, vừa thực dụng, giúp nhân viên tự tin và tạo ấn tượng tốt với khách hàng.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed mb-4" data-aos="fade-up" data-aos-delay="400">
+                            Với chất liệu cao cấp, thoáng mát và bền bỉ, các mẫu đồng phục được tùy chỉnh để phù hợp với đặc thù của từng ngành, từ đồng phục lễ tân, phục vụ đến bảo vệ. Mỗi thiết kế đều được chăm chút để phản ánh giá trị thương hiệu và nâng cao trải nghiệm khách hàng.
+                        </p>
+                        <ul class="space-y-3 text-gray-700" data-aos="fade-up" data-aos-delay="450">
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Chất liệu cao cấp, phù hợp với môi trường dịch vụ năng động.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Thiết kế hiện đại, phù hợp với nhà hàng, khách sạn, spa, siêu thị.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="w-5 h-5 text-ocean flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Tùy chỉnh linh hoạt theo đặc thù ngành nghề.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Chất Liệu Tiêu Biểu -->
+    <section id="chat-lieu" class="py-20 scroll-mt-10 bg-white" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">CHẤT LIỆU TIÊU BIỂU</h2>
@@ -887,8 +1052,8 @@
         </div>
     </section>
 
-    <!-- Section 14: Kỹ Thuật In/Thêu -->
-    <section id="ky-thuat-in-theu" class="py-20 gradient-bg" data-aos="fade-up">
+    <!-- Section: Kỹ Thuật In/Thêu -->
+    <section id="ky-thuat-in-theu" class="py-20 scroll-mt-10 gradient-bg" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">KỸ THUẬT IN/THÊU</h2>
@@ -949,8 +1114,8 @@
         </div>
     </section>
 
-    <!-- Section 15: Hình Ảnh Feedback Khách Hàng -->
-    <section id="feedback-khach-hang" class="py-20 bg-white" data-aos="fade-up">
+    <!-- Section: Hình Ảnh Feedback Khách Hàng -->
+    <section id="feedback-khach-hang" class="py-20 scroll-mt-10 bg-white" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">HÌNH ẢNH FEEDBACK KHÁCH HÀNG</h2>
@@ -1015,43 +1180,8 @@
         </div>
     </section>
 
-    <!-- Section 16: Lời Kết -->
-    <section id="loi-ket" class="py-20 lg:bg-[url('static/images/background.png')] bg-[url('static/images/background-mobile.png')] bg-cover" data-aos="fade-up">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-4xl font-bold text-mist text-center mb-12" data-aos="zoom-in" data-aos-delay="100">LỜI KẾT</h2>
-                <div class="section-divider mb-8" data-aos="fade-in" data-aos-delay="200"></div>
-                
-                <div class="bg-white p-8 md:p-12 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
-                    <p class="text-lg text-gray-700 leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="350">
-                        <strong class="text-ocean">Quý Khách Hàng thân mến,</strong>
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="400">
-                        Chúng tôi, Song Yến Uniform, xin chân thành cảm ơn Quý khách đã dành thời gian quý báu để tìm hiểu về công ty và những sản phẩm, dịch vụ mà chúng tôi cung cấp. Bộ hồ sơ năng lực này là minh chứng cho sự nỗ lực không ngừng nghỉ của tập thể Song Yến Uniform nhằm mang đến cho khách hàng những sản phẩm chất lượng và dịch vụ tốt nhất.
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="450">
-                        Chúng tôi cam kết luôn đặt chất lượng lên hàng đầu trong mọi sản phẩm và dịch vụ. Từng chi tiết nhỏ trong sản phẩm đều được chúng tôi chăm chút kỹ lưỡng, từ khâu chọn nguyên liệu đến quy trình sản xuất hiện đại, đảm bảo đáp ứng đầy đủ các tiêu chuẩn khắt khe của thị trường.
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="500">
-                        Song Yến Uniform không ngừng đổi mới và sáng tạo nhằm mang đến những thiết kế độc đáo, phù hợp với xu hướng thời trang hiện đại. Chúng tôi luôn lắng nghe và thấu hiểu nhu cầu của khách hàng để đưa ra những giải pháp tối ưu nhất.
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="550">
-                        Trong tương lai, Song Yến Uniform phấn đấu trở thành một trong những công ty hàng đầu trong lĩnh vực sản xuất đồng phục tại Việt Nam. Chúng tôi hy vọng sẽ tiếp tục nhận được sự ủng hộ và tin tưởng từ Quý khách hàng để cùng nhau phát triển và thành công.
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed mb-8" data-aos="fade-up" data-aos-delay="600">
-                        Một lần nữa, xin chân thành cảm ơn Quý khách đã quan tâm đến Song Yến Uniform. Chúng tôi rất mong được hợp tác và phục vụ Quý khách trong thời gian sớm nhất.
-                    </p>
-                    <div class="text-right" data-aos="fade-up" data-aos-delay="650">
-                        <p class="text-lg font-semibold text-ocean mb-4">Trân trọng,</p>
-                        <p class="text-xl font-bold text-ocean">Song Yến Uniform</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
-    <section id="lien-he" class="py-20 bg-white" data-aos="fade-up">
+    <section id="lien-he" class="py-20 scroll-mt-10 bg-white" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-4xl font-bold text-ocean text-center mb-12" data-aos="zoom-in" data-aos-delay="100">LIÊN HỆ</h2>
@@ -1066,7 +1196,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                                 </svg>
-                                <span>Địa chỉ: 60 Huỳnh Tấn Phát, Hòa Cường Bắc, Hải Châu, TP. Đà Nẵng</span>
+                                <span>Địa chỉ: 03 Lê Đại, Hòa Cường Bắc, Hải Châu, TP. Đà Nẵng</span>
                             </li>
                             <li class="flex items-center space-x-3" data-aos="fade-up" data-aos-delay="450">
                                 <svg class="w-6 h-6 text-ocean" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1102,7 +1232,7 @@
                 <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
                     <img src="static/logo.png" class="w-60" alt="logo">
                     <h3 class="text-2xl font-bold text-ocean-light mb-4">Song Yến Uniform</h3>
-                    <p class="text-sm">Hơn 15 năm kinh nghiệm trong lĩnh vực sản xuất và cung cấp đồng phục chất lượng cao, mang đến sự chuyên nghiệp và tinh thần đoàn kết.</p>
+                    <p class="text-sm">Nhiều năm kinh nghiệm trong lĩnh vực sản xuất và cung cấp đồng phục chất lượng cao, mang đến sự chuyên nghiệp và tinh thần đoàn kết.</p>
                 </div>
                 <div class="self-center" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="text-xl font-semibold mb-4 md:mb-16">Liên Kết Nhanh</h3>
@@ -1116,7 +1246,7 @@
                 <div class="self-center" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="text-xl font-semibold mb-4 md:mb-16">Liên Hệ</h3>
                     <ul class="space-y-2 text-sm">
-                        <li>Địa chỉ: 60 Huỳnh Tấn Phát, Phường Hòa Cường Bắc, Quận Hải Châu, TP. Đà Nẵng</li>
+                        <li>Địa chỉ: 03 Lê Đại, Phường Hòa Cường Bắc, Quận Hải Châu, TP. Đà Nẵng</li>
                         <li>Hotline: 0817 967 369</li>
                         <li>Email: songyenufs24@gmail.com</li>
                     </ul>
